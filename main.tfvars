@@ -1,0 +1,11 @@
+env = "dev"
+project_id = "your-project-id"
+region = "us-west2"
+network = "default"
+subnetwork = "default"
+ip_range_pods_name = "k8-pod-ranges"
+ip_range_services_name = "k8-service-ranges"
+cluster_name =  "your-cluster-name"
+cluster_machine_type = "n1-standard-2"
+cluster_disk_size_gb = 25 #gb
+cluster_disk_type = "pd-standard" #standard
